@@ -5,26 +5,22 @@
         "javascript"
     ],
     "git.ignoreMissingGitWarning": false,
-    "workbench.startupEditor": "newUntitledFile",
-    "window.zoomLevel": 0,
     "editor.minimap.enabled": false,
     "editor.wordWrap": "on",
     "editor.renderWhitespace": "all",
-    "editor.renderControlCharacters": false,
     "editor.tabSize": 2,
     "explorer.autoReveal": false,
     "files.eol": "\n",
-    "workbench.activityBar.visible": true,
-    "workbench.statusBar.visible": true,
     "workbench.colorTheme": "Monokai Dimmed",
     "explorer.decorations.badges": true,
-    "explorer.decorations.colors": true,
     "workbench.statusBar.feedback.visible": false,
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\bash.exe",
     "workbench.colorCustomizations": {
         "gitDecoration.ignoredResourceForeground": "#cccccc50",
         "editorWhitespace.foreground": "#776d6d1a",
         "editorLineNumber.foreground": "#6e6e6e5d",
+        "editor.selectionBackground": "#cccccc40",
+        "editor.selectionHighlightBackground": "#cccccc15",
         "editorLineNumber.activeForeground": "#ffffff",
         "editorIndentGuide.background": "#66666617",
         "editorIndentGuide.activeBackground": "#6666663f"
@@ -33,7 +29,7 @@
     // turn off all the auto crap and let me code in peace
     // "editor.hover.enabled": false, // will also hide lint errors
     // "javascript.suggestionActions.enabled": false,
-    "editor.autoClosingBrackets": false,
+    "editor.autoClosingBrackets": "never",
     "workbench.editor.enablePreview": false,
     // "editor.suggestOnTriggerCharacters": false,
     // "editor.quickSuggestions": {
@@ -45,5 +41,10 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "window.menuBarVisibility": "toggle",
-    "breadcrumbs.enabled": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "workbench.startupEditor": "newUntitledFile",
+    "breadcrumbs.symbolPath": "off",
+    "workbench.editor.labelFormat": "medium",
+    "window.title": "${rootName} -> ${dirty}${activeEditorMedium}",
+    "search.location": "panel",
 }
